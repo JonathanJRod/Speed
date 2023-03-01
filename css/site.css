@@ -64,3 +64,12 @@ code[class*="language-"],
         word-wrap: break-word;
     }
 
+.logoFont {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.headerFont {
+    font-family: 'Tilt Warp', cursive;
+}
+
+
