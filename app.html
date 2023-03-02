@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tilt+Warp&family=Ubuntu&display=swap" rel="stylesheet">
     
-    <link rel="icon" type="imgage/png" href="img/jjrIcon.png">
+    <link rel="icon" type="imgage/png" href="img/speedlogo3.png">
 
 </head>
 
@@ -29,7 +29,7 @@
     <!-- Nav Section -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand logoFont" href="#"><img src="img/jjrIcon.png" width="40" class="d-inline-block align-text-top" > SPEED</a>
+            <a class="navbar-brand logoFont" href="#"><img src="img/speedlogo3.png" width="40" class="d-inline-block align-text-center" > SPEED</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -58,9 +58,9 @@
 
     <!-- Main Section -->
     <main class="flex-shrink-0">
-        <div class="container">
+        <div class="container mt-5">
             <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col-4 mt-5">
+                <div class="col-lg-4 col border-end border-2">
                     <h1 class="headerFont">SPEED: A Coding Project</h1>
                     <h4 class="lead logoFont">
                         Live life one loop at a time. A javascript coding exercise using loops.
@@ -69,7 +69,7 @@
                     <h2 class="mt-5 border-bottom border-2 headerFont">Instructions</h2>
                     <p class="logoFont">Enter a starting value and a ending value. Press the button!</p>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8 col">
                     <div>
                         <h5>Enter Values</h5>
                         <form class="row gy-2 gx-3">
@@ -78,10 +78,11 @@
                                     placeholder="Start Value" value=0 aria-label="Start Value">
                             </div>
                             <div class="col">
-
+                                <input id="endValue" type="number" class="form-control"
+                                    placeholder="End Value" value=100 aria-label="End Value">
                             </div>
-                            <div class="col-12">
-
+                            <div class="col-12 d-flex justify-content-end">
+                                <button id="btnSubmit" type="button" class="btn btn-dark btn-lg">Ready Set Go!</button>
                             </div>
                         </form>
                     </div>
